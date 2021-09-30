@@ -1,4 +1,4 @@
-# Linked list
+# 2.Linked list
 
 ## 연결리스트 만들기
 
