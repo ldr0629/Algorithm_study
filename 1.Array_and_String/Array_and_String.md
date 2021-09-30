@@ -17,7 +17,7 @@
 동적 가변 크기 기능이 내재되어 있는 배열과 비슷한 자료구조를 원할 때에는 보통 ArrayList를 사용한다. 
 이는 필요에 따라 크기를 변화시킬 수 있으면서도 O(1)의 접근 시간을 유지한다. 통상적으로 배열이 가득차는 순간 배열의 크기를 두 배로 늘린다.
 
-```
+```java
 ArrayList merge(Stirng[] words, String[] more) {
     ArrayList sentence = new ArrayList();
     for (String w : words) sentence.add(2);
@@ -30,7 +30,7 @@ ArrayList merge(Stirng[] words, String[] more) {
 문자열의 리스트가 주어졌을 때 이 문자열들을 하나로 이어 붙이려고 한다. 이때의 시간 복잡도는 O(xn^2)가 된다. 
 StringBuilder는 이 시간 복잡도를 단순하게 가변 크기 배열을 이용하여 해결을 해준다.
 
-```
+```java
 Stirng joinWords(String[] words) {
     StringBuilder sentence = new StringBuilder();
     for (String w : words) {
