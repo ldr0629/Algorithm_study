@@ -1,1 +1,1 @@
-# Algorithm_study
+# Data Structure
